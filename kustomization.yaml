@@ -3,7 +3,7 @@ kind: Kustomization
 
 bases:
 - nginx-ingress
-- logging
+# - logging
 - metrics
 - keycloak
 - postgresql
